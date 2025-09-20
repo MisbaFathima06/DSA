@@ -7,4 +7,4 @@ def linear_search(list1):       #goes through each index of the list
             return i
     return -1
 
-print(linear_search(list1))
+print(linear_search(list1)) 
