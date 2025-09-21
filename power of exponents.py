@@ -16,6 +16,9 @@ def power(x,n):
         return 1  
     elif x==0:
         return 0
+    elif n<0:
+        x=1/x
+        n=-n
         
     half= power(x,n//2)
 
