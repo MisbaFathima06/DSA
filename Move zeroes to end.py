@@ -8,7 +8,7 @@ def move_zeroes(nums):
 
     # If array has 0 or 1 element, nothing to do---> just return that list
     if size<=1:
-        return nums
+        return nums 
     
      # Step3:Traverse the array with nz
     while(nz<size):     

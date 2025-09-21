@@ -8,7 +8,7 @@ def second_largest(nums):
     if nums[0]>nums[1]:
         max1,max2=nums[0], nums[1]
     else:
-        max1,max2=nums[1],nums[0]
+        max1,max2=nums[1],nums[0] 
   
    # Traverse from 2nd index 
     for i in range(2,len(nums)):
